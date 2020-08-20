@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="#FAFAFC"
+              android:divider="#FFCC00"
+              android:showDividers="middle">
+
+    <TextView
+            android:id="@+id/list_entry_quantity"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:elegantTextHeight="true"
+            android:textColor="@color/colorText"
+    >
+
+
+    </TextView>
+
+    <TextView
+            android:id="@+id/list_entry_name"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/colorText"
+    >
+    </TextView>
+    <TextView
+            android:id="@+id/list_entry_price"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/colorText"
+
+    >
+    </TextView>
+
+
+</LinearLayout>
